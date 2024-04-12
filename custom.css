@@ -9,7 +9,9 @@ div.texto-izquierda {
 }
 
 div.general{
-    margin: 10% 10% 10% 10%;
+    margin: 20% 20% 20% 20%;
+    max-width: 1000px;
+    min-width: 300px
 }
 h3 {
     font-size: small;
