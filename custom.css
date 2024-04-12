@@ -1,0 +1,18 @@
+div.texto-derecha {
+    text-align: right;
+    font-style: italic;
+}
+
+div.texto-izquierda {
+    text-align: left;
+    font-style: italic;
+}
+
+div.general{
+    margin: 10% 10% 10% 10%;
+}
+h3 {
+    font-size: small;
+    font-weight: normal;
+    margin: 0%;
+}
