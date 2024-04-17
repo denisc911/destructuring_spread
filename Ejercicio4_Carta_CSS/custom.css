@@ -1,0 +1,113 @@
+div.texto-derecha {
+    text-align: right;
+    font-style: italic;
+    Color:navy;
+}
+div.texto-izquierda {
+    text-align: left;
+    font-style: italic;
+    color:brown;
+}
+
+div.general{
+    margin: 20% 20% 20% 20%;
+    max-width: 1000px;
+    min-width: 300px
+}
+
+h1{
+    text-decoration-color: blue;
+    text-align: left;
+    font-size: x-large;
+}
+h2{
+    text-decoration-color: red;
+    text-align: center;
+    text
+}
+
+h3 {
+    font-size: small;
+    font-weight: normal;
+    text-align: right;
+    font-family:"Roboto-medium-italic";
+}
+p {
+    text-align: justify;
+    font-family: sans-serif;
+}
+
+
+
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .roboto-black {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .roboto-thin-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .roboto-light-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .roboto-regular-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .roboto-medium-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .roboto-bold-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .roboto-black-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  
