@@ -3,32 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="javascri.js"></script> 
-    <title>Document</title>
+    <title>Formulario JSON</title>
 </head>
 <body>
-<h1>Formulario JSON</h1>
-<!-- // 1. Formulario de contacto - Local Storage
-// Crear un formulario de contacto con los siguientes campos:
-// Nombre
-// Correo
-// Mensaje -->
-<!-- // Guardar en Local Storage los datos de contacto rellenados del usuario (solo guarda un usuario)
-// Muestra el usuario que has guardado en el DOM
-// Pista: usa JSON.parse() y JSON.stringify() para guardar muchos datos usando la misma clave (usar un inner html) --> 
-<form id="formulario">
-    <input type="text" id="nombre" placeholder="Nombre">
-    <input type="text" id="correo" placeholder="Correo">
-    <input type="text" id="msg" placeholder="Mensaje">
-    <input type="submit" value="Guardar">
-</form>
-<!-- 
-// 2. Extra
-// Guardar en Local Storage los datos de contacto enviados de cada usuario (ir guardandolos todos)
-// Mostrar los datos de los contactos guardados en el DOM
-// Crea un botón para borrar todos los contactos guardados en Local Storage
- -->
+    <h1>Formulario de contactos</h1>
 
+    <form id="formulario">
+        <input type="text" id="nombre" placeholder="Nombre">
+        <input type="text" id="correo" placeholder="Correo">
+        <input type="text" id="msg" placeholder="Mensaje">
+        <input type="submit" value="Guardar">
+    </form>
+
+
+    <div id="mostrarDatos"></div>
+
+
+    <script src="javascri.js" defer></script> 
     
+    <button id="borrardatos">Borrar contactos</button>
+
 </body>
 </html>
