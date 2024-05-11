@@ -15,13 +15,13 @@
 const formulario = document.getElementById('formulario');
 
 formulario.addEventListener('submit', function(event) {
-    event.preventDefault(); // Evitar que el formulario se envíe
-    // formulario
+    event.preventDefault(); // Evitar que el formulario se envíe antes de mostrar
+    // Datos del formulario
     const nombre = document.getElementById('nombre').value;
     const correo = document.getElementById('correo').value;
     const mensaje = document.getElementById('msg').value;
 
-    // declaracion array
+    // Array
     const datos = {
         nombre: nombre,
         correo: correo,
@@ -39,9 +39,6 @@ formulario.addEventListener('submit', function(event) {
 
     // Limpiar el formulario
     formulario.reset();
-
-    // Mostrar mensaje de éxito
-    alert('Datos guardados en el almacenamiento local.');
 
     // Mostrar los datos guardados en el DOM
     mostrarDatosGuardados();
@@ -83,8 +80,7 @@ function mostrarDatosGuardados() {
 // Función BorrarTodo
 document.getElementById('borrardatos').addEventListener('click', function() {
     localStorage.removeItem('contactos');
-    mostrarDatosGuardados(); // Actualizar la vista
-    alert('Todos los contactos han sido borrados.');
+    mostrarDatosGuardados(); // 
 });
 
 mostrarDatosGuardados();
